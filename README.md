@@ -14,7 +14,7 @@ is represented in the HTML with header level 2(h2) and header level 3(h3), is al
 
 ## Installation
 When in visual studio click on rebuild solution. 
-You can also try:
+Maybe you will need also:
 
 NUnit
 1.	Manage Nuget Packages -> install Nunit + Nunit Test Adapter + Microsoft.Test.SDK + NETStandard.Library
