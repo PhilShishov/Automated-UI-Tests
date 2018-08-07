@@ -16,6 +16,9 @@ is represented in the HTML with header level 2(h2) and header level 3(h3), is al
 When in visual studio click on rebuild solution. 
 Maybe you will need also:
 
+.Net Core 2.1/2.0
+https://www.microsoft.com/net/download/visual-studio-sdks
+
 NUnit
 1.	Manage Nuget Packages -> install Nunit + Nunit Test Adapter + Microsoft.Test.SDK + NETStandard.Library
 2.	Extensions and updates -> install Nunit Template
