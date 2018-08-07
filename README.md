@@ -1,6 +1,6 @@
 # Automated-Unit-Tests
 
-Some of the automated unit tests using NUnit & Selenium WebDriver and build with Page Object Model, triple AAA, fluent assertions.
+Some of the automated unit tests using NUnit & Selenium WebDriver and build with Page Object Model, triple A, fluent assertions.
 
 1.http://flagpedia.net/index - Iterate through a list of countries and take screenshot of each element  
 and save it with a specific name 
@@ -13,3 +13,12 @@ is represented in the HTML with h2 and h3 is also asserted.
 
 
 ## Installation
+When in visual studio click on rebuild solution. If it's not working :
+
+NUnit
+1.	Manage Nuget Packages -> install Nunit + Nunit Test Adapter + Microsoft.Test.SDK + NETStandard.Library
+2.	Extensions and updates -> install Nunit Template
+
+Selenium 
+1.	Manage Nuget Packages -> install Selenium.Webdriver + Support + ChromeDriver + FluentAssertions
+
