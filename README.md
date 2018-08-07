@@ -10,3 +10,6 @@ and save it with a specific name
 3.https://www.automatetheplanet.com/ - While arriving on a section of the page a list of links is verified  
 that each link points out to a section with the same name. IF the hierarchy in the quick navigation section   
 is represented in the HTML with h2 and h3 is also asserted.
+
+
+## Installation
