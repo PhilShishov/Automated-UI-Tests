@@ -1,6 +1,6 @@
 # Automated-Unit-Tests
 
-Some of the automated unit tests using NUnit & Selenium WebDriver and build with Page Object Model.
+Some of the automated unit tests using NUnit & Selenium WebDriver and build with Page Object Model, triple AAA, fluent assertions.
 
 1.http://flagpedia.net/index - Iterate through a list of countries and take screenshot of each element  
 and save it with a specific name 
