@@ -8,8 +8,8 @@ and save it with a specific name
 2.http://services.ce3c.be/ciprg/ - Get all IP Ranges for all countries in the world and save them as .txt
 
 3.https://www.automatetheplanet.com/ - While arriving on a section of the page a list of links is verified  
-that each link points out to a section with the same name. IF the hierarchy in the quick navigation section   
-is represented in the HTML with h2 and h3 is also asserted.
+that each link points out to a section with the same name. If the hierarchy in the quick navigation section   
+is represented in the HTML with header level 2(h2) and header level 3(h3), is also asserted.
 
 
 ## Installation
