@@ -1,4 +1,4 @@
-# Automated-Unit-Tests
+# Automated-UI-Tests
 
 Some of the automated unit tests using NUnit & Selenium WebDriver and build with Page Object Model, triple A, fluent assertions.
 
