@@ -9,7 +9,7 @@ and save it with a specific name
 
 3.https://www.automatetheplanet.com/ - While arriving on a section of the page a list of links is verified  
 that each link points out to a section with the same name. If the hierarchy in the quick navigation section   
-is represented in the HTML with header level 2(h2) and header level 3(h3), is also asserted.
+is represented in the HTML with different header levels - h2, h3, h4, is also asserted.
 
 
 ## Installation
