@@ -11,6 +11,8 @@ and save it with a specific name
 that each link points out to a section with the same name. If the hierarchy in the quick navigation section   
 is represented in the HTML with different header levels - h2, h3, h4, is also asserted.
 
+4.https://docs.microsoft.com/en-us/dotnet/csharp/ - Verify that every link in "In this Article" scroll to section in the article with the same name through a parameterized test
+
 
 ## Installation
 When in visual studio click on rebuild solution. 
