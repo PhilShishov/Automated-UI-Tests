@@ -1,0 +1,4 @@
+Micronesia Federated States of:43.248.156.0-43.248.159.255
+Micronesia Federated States of:103.39.252.0-103.39.255.255
+Micronesia Federated States of:119.252.112.0-119.252.127.255
+Micronesia Federated States of:124.109.8.0-124.109.15.255

@@ -1,0 +1,3 @@
+Wallis and Futuna Islands:27.125.192.0-27.125.195.255
+Wallis and Futuna Islands:103.235.110.0-103.235.111.255
+Wallis and Futuna Islands:117.20.32.0-117.20.39.255

@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp2.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Screenshots\Maps\**" />
+    <EmbeddedResource Remove="Screenshots\Maps\**" />
+    <None Remove="Screenshots\Maps\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentAssertions" Version="5.4.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
+    <PackageReference Include="NUnit" Version="3.10.1" />
+    <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
+    <PackageReference Include="Selenium.Support" Version="3.13.1" />
+    <PackageReference Include="Selenium.WebDriver" Version="3.13.1" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="2.41.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="CountryIp\" />
+    <Folder Include="Screenshots\FailedTests\" />
+    <Folder Include="Screenshots\Flags\" />
+  </ItemGroup>
+
+</Project>
