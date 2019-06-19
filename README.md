@@ -16,7 +16,7 @@ is represented in the HTML with different header levels - h2, h3, h4, is also as
 
 ## Installation
 When in visual studio click on rebuild solution. 
-Maybe you will need also:
+Maybe you will also need :
 
 .Net Core 2.1/2.0  
 https://www.microsoft.com/net/download/visual-studio-sdks
