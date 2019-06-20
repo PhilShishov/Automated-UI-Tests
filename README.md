@@ -28,3 +28,10 @@ NUnit
 Selenium 
 1.	Manage Nuget Packages -> install Selenium.Webdriver + Support + ChromeDriver + FluentAssertions
 
+
+<h2> Certificate </h2>
+
+|**Course**|**Link**| 
+|---|---|
+|<a href="https://softuni.bg/trainings/1859/qa-automation-june-2018" > QA Automation </a>   | <a href="https://softuni.bg/certificates/details/57187/b964283c"> Link</a> |
+
