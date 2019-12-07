@@ -27,3 +27,6 @@ NUnit
 
 Selenium 
 1.	Manage Nuget Packages -> install Selenium.Webdriver + Support + ChromeDriver + FluentAssertions
+
+
+![](ok.gif)
