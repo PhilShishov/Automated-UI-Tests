@@ -1,14 +1,8 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.1</TargetFramework>
   </PropertyGroup>
-
-  <ItemGroup>
-    <Compile Remove="Screenshots\Maps\**" />
-    <EmbeddedResource Remove="Screenshots\Maps\**" />
-    <None Remove="Screenshots\Maps\**" />
-  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="FluentAssertions" Version="5.4.1" />
@@ -22,6 +16,8 @@
 
   <ItemGroup>
     <Folder Include="CountryIp\" />
+    <Folder Include="Screenshots\FailedTests\" />
+    <Folder Include="Screenshots\Flags\" />
     <Folder Include="Screenshots\FailedTests\" />
     <Folder Include="Screenshots\Flags\" />
   </ItemGroup>

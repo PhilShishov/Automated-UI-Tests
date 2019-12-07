@@ -1,14 +1,15 @@
-﻿
-namespace AutomatedUnitTests
+﻿namespace AutomatedUnitTests
 {
-    using AutomatedUnitTests.Pages.NetCorePage;
+    using System.IO;
+    using System.Reflection;
+
     using FluentAssertions;
     using NUnit.Framework;
     using NUnit.Framework.Interfaces;
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
-    using System.IO;
-    using System.Reflection;
+
+    using AutomatedUnitTests.Pages.NetCorePage;
 
     [TestFixture]
     public class NetCore

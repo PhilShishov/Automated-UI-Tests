@@ -1,12 +1,14 @@
 ﻿namespace AutomatedUnitTests
 {
-    using AutomatedUnitTests.Pages.IpHomePage;
+    using System.IO;
+    using System.Threading;
+    using System.Reflection;
+
     using NUnit.Framework;
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
-    using System.IO;
-    using System.Reflection;
-    using System.Threading;
+
+    using AutomatedUnitTests.Pages.IpHomePage;
 
     [TestFixture]
     public class IpRanges

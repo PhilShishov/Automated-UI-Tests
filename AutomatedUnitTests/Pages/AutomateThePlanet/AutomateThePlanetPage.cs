@@ -1,7 +1,6 @@
 ﻿namespace AutomatedUnitTests.Pages.AutomateThePlanet
 {
     using OpenQA.Selenium;
-    using System.Threading;
 
     public partial class AutomateThePlanetPage : BasePage
     {

@@ -1,8 +1,6 @@
-﻿
-namespace AutomatedUnitTests.Pages.NetCorePage
+﻿namespace AutomatedUnitTests.Pages.NetCorePage
 {
     using OpenQA.Selenium;
-    using System.Threading;
 
     public partial class NetCorePage : BasePage
     {

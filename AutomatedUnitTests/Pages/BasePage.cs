@@ -1,9 +1,10 @@
 ﻿namespace AutomatedUnitTests.Pages
 {
-    using OpenQA.Selenium;
-    using OpenQA.Selenium.Support.UI;
     using System;
     using System.Threading;
+
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Support.UI;
 
     public class BasePage
     {

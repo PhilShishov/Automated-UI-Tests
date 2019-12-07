@@ -1,7 +1,8 @@
 ﻿namespace AutomatedUnitTests.Pages.CountryPage
 {
-    using OpenQA.Selenium;
     using System.Linq;
+
+    using OpenQA.Selenium;
 
     public partial class CountryPage
     {

@@ -1,7 +1,8 @@
 ﻿namespace AutomatedUnitTests.Pages.IpHomePage
 {
-    using OpenQA.Selenium;
     using System.Collections.Generic;
+
+    using OpenQA.Selenium;
 
     public partial class IpHomePage : BasePage
     {

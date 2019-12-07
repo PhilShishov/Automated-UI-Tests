@@ -1,12 +1,14 @@
 ﻿namespace AutomatedUnitTests
 {
-    using AutomatedUnitTests.Pages.CountryPage;
-    using AutomatedUnitTests.Pages.IndexPage;
+    using System.IO;
+    using System.Reflection;
+
     using NUnit.Framework;
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
-    using System.IO;
-    using System.Reflection;
+
+    using AutomatedUnitTests.Pages.IndexPage;
+    using AutomatedUnitTests.Pages.CountryPage;
 
     [TestFixture]
     public class Flagpedia

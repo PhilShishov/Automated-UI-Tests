@@ -1,9 +1,9 @@
-﻿
-namespace AutomatedUnitTests.Pages.NetCorePage
+﻿namespace AutomatedUnitTests.Pages.NetCorePage
 {
-    using OpenQA.Selenium;
-    using System.Collections.Generic;
     using System.Linq;
+    using System.Collections.Generic;
+
+    using OpenQA.Selenium;
 
     public partial class NetCorePage
     {
