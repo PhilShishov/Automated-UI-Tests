@@ -1,29 +1,25 @@
-# Automated-UI-Tests
 
-Some of the automated UI tests using NUnit & Selenium WebDriver and build with Page Object Model, triple A, fluent assertions.
-
-1.http://flagpedia.net/index - Iterate through a list of countries and take screenshot of each element  
-and save it with a specific name 
-
-2.http://services.ce3c.be/ciprg/ - Get all IP Ranges for all countries in the world and save them as .txt
-
-3.https://www.automatetheplanet.com/ - While arriving on a section of the page a list of links is verified  
-that each link points out to a section with the same name. If the hierarchy in the quick navigation section   
-is represented in the HTML with different header levels - h2, h3, h4, is also asserted.
-
-4.https://docs.microsoft.com/en-us/dotnet/csharp/ - Verify that every link in "In this Article" section scrolls to article with the same name through a parameterized test (works for multiple articles)
+# <a href="https://softuni.bg/trainings/2347/js-apps-july-2019"><p align="center"> JS Apps - July 2019<p>
+</a>
 
 
-## Installation
-When in visual studio click on rebuild solution. 
-Maybe you will also need :
 
-.Net Core 2.1/2.0  
-https://www.microsoft.com/net/download/visual-studio-sdks
+## Exercises and labs
+1. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/01.RestServicesAjax_Lab" > Rest Services Ajax - Lab</a> 
+2. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/01.RestServicesAjax_Exercise" > Rest Services Ajax - Exercise</a> 
+3. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/02.AsynchronousProgramming_Lab" > Asynchronous Programming - Lab</a> 
+4. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/02.AsynchronousProgramming_Exercise" > Asynchronous Programming - Exercise</a> 
+5. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/03.RemoteDatabases_Lab" > Remote Databases - Lab</a> 
+6. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/03.RemoteDatabases_Exercise" > Remote Databases - Exercise</a> 
+7. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/04.RoutingArchitecture_Lab" > Routing Architecture - Lab</a> 
+8. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/04.RoutingArchitecture_Exercise" > Routing Architecture - Exercise</a> 
+9. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/05.Templating_Lab" > Templating - Lab</a> 
+10. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/05.Templating_Exercise" > Templating - Exercise</a> 
+11. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/06.JSFrontEnd" > JS for Front End</a> 
 
-NUnit
-1.	Manage Nuget Packages -> install Nunit + Nunit Test Adapter + Microsoft.Test.SDK + NETStandard.Library
-2.	Extensions and updates -> install Nunit Template
 
-Selenium 
-1.	Manage Nuget Packages -> install Selenium.Webdriver + Support + ChromeDriver + FluentAssertions
+## Exams
+- <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Exams/JSApp_Exam14Apr2019_1" >14 Apr 2019 Group 1</a> 
+- <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Exams/JSApp_Exam14Apr2019_2" >14 Apr 2019 Group 2</a> 
+- <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Exams/JSApp_Exam10Aug2019" >10 Aug 2019</a> 
+- <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Exams/JSApp_Exam9Apr2020" >09 Apr 2020</a> 
