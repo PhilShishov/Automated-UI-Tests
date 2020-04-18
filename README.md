@@ -4,9 +4,9 @@
 
 
 
-## Exercises and labs
-1. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/01.RestServicesAjax_Lab" > Rest Services Ajax - Lab</a> 
-2. <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Homeworks/01.RestServicesAjax_Exercise" > Rest Services Ajax - Exercise</a> 
+## Exercises
+1. <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Homeworks/Selenium%20Fundamentals" >Selenium Fundamentals</a> 
+2. <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Homeworks/Selenium%20Advanced" > Selenium Advanced</a> 
 
 ## Exams
-- <a href="https://github.com/PhilShishov/Software-University/tree/master/JS%20Apps/Exams/JSApp_Exam14Apr2019_1" >14 Apr 2019 Group 1</a> 
+- <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Automated%20Unit%20Tests" >Automated Unit Tests</a> 
