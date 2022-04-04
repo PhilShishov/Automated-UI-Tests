@@ -1,16 +1,17 @@
 ﻿
 namespace SeleniumTests.Pages
 {
-    using OpenQA.Selenium;
-    using OpenQA.Selenium.Support.UI;
     using System.Collections.Generic;
     using System.Linq;
 
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Support.UI;
+
     public partial class RegistrationPage
     {
-        public IWebElement FirstName => _driver.FindElement(By.Id("name_3_firstname"));
+        public IWebElement FirstName => _driver.FindElement(By.Id("firstname"));
 
-        public IWebElement LastName => _driver.FindElement(By.Id("name_3_lastname"));
+        public IWebElement LastName => _driver.FindElement(By.Id("lastname"));
 
         public List<IWebElement> MatrialStatus => _driver.FindElements(By.Name("radio_4[]")).ToList();
 
@@ -34,7 +35,7 @@ namespace SeleniumTests.Pages
 
         public IWebElement Phone => _driver.FindElement(By.Id("phone_9"));
 
-        public IWebElement UserName => _driver.FindElement(By.Id("username"));
+        public IWebElement UserName => _driver.FindElement(By.Id("userName"));
 
         public IWebElement Email => _driver.FindElement(By.Id("email_1"));
 
@@ -42,11 +43,11 @@ namespace SeleniumTests.Pages
 
         public IWebElement Description => _driver.FindElement(By.Id("description"));
 
-        public IWebElement Password => _driver.FindElement(By.Id("password_2"));
+        public IWebElement Password => _driver.FindElement(By.Id("password"));
 
         public IWebElement ConfirmPassword => _driver.FindElement(By.Id("confirm_password_password_2"));
 
-        public IWebElement SubmitButton => _driver.FindElement(By.Name("pie_submit"));       
+        public IWebElement SubmitButton => _driver.FindElement(By.Id("register"));
 
         public IWebElement NameErrorMessage => _driver.FindElement(By.XPath(@"//*[@id=""pie_register""]/li[1]/div[1]/div[2]/span"));
 
@@ -56,7 +57,7 @@ namespace SeleniumTests.Pages
 
         public IWebElement PhoneErrorMessage => _driver.FindElement(By.XPath(@"//*[@id=""pie_register""]/li[6]/div/div/span"));
 
-        public IWebElement HeaderMessage => _driver.FindElement(By.TagName("h1"));
+        public IWebElement HeaderMessage => _driver.FindElement(By.TagName("h4"));
 
         public IWebElement EmailErrorMessage => _driver.FindElement(By.XPath(@"//*[@id=""pie_register""]/li[8]/div/div/span"));
 

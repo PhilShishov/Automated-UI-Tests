@@ -1,14 +1,13 @@
 ﻿
-
 namespace SeleniumTests
 {
-    using NUnit.Framework;
-    using OpenQA.Selenium;
-    using OpenQA.Selenium.Chrome;
-    using OpenQA.Selenium.Support.UI;
-    using System;
     using System.IO;
     using System.Reflection;
+
+    using NUnit.Framework;
+
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Chrome;
 
     [TestFixture]
 
@@ -31,13 +30,13 @@ namespace SeleniumTests
         }
         [Test]
         public void ConfirmThat_HeadingTagHOne_Contains_SearchedTextMessage()
-        {            
+        {
             _driver.FindElement(By.XPath("//*[@id=\"header-nav\"]/div[1]/ul/li[2]/a")).Click();
-            _driver.FindElement(By.PartialLinkText("QA Automation - юни 2018")).Click();
+            _driver.FindElement(By.PartialLinkText("C# Advanced")).Click();
 
-            var header = _driver.FindElement(By.XPath("/html/body/div[3]/header/h1")).Text;
+            var header = _driver.FindElement(By.XPath("/html/body/div[2]/section[1]/section[1]/section[1]/section/h1")).Text;
 
-            Assert.AreEqual("QA Automation - юни 2018", header);         
+            Assert.AreEqual("C# Advanced - май 2022", header);
         }
     }
 }

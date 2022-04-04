@@ -1,11 +1,11 @@
 ﻿
-
 namespace SeleniumTests.Factories
 {
-    using SeleniumTests.Models;
-    using System;
     using System.Collections.Generic;
     using System.IO;
+
+    using SeleniumTests.Models;
+
     public static class UserFactory
     {
         public static RegistrationUser GenerateRegUser()
@@ -15,7 +15,7 @@ namespace SeleniumTests.Factories
             _user.LastName = "Shishov";
             _user.MatrialStatus = new List<bool>() { false, true, false };
             _user.Hobbies = new List<bool>() { false, true, false };
-            _user.Country = "France";
+            _user.Country = "England";
             _user.Month = "5";
             _user.Day = "10";
             _user.Year = "1989";

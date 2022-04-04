@@ -1,7 +1,8 @@
-﻿using System.Collections.Generic;
-
+﻿
 namespace SeleniumTests.Models
 {
+    using System.Collections.Generic;
+    
     public class RegistrationUser
     {
         public string FirstName { get; set; }

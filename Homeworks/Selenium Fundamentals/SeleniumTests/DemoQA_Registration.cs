@@ -1,17 +1,17 @@
-﻿namespace SeleniumTests
+﻿
+namespace SeleniumTests
 {
+    using System.IO;
+    using System.Collections.Generic;
+    using System.Reflection;
+
     using NUnit.Framework;
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
-    using OpenQA.Selenium.Support.UI;
-    using SeleniumTests.Pages;
-    using System;
-    using System.IO;
-    using System.Reflection;
     using FluentAssertions;
-    using SeleniumTests.Models;
     using SeleniumTests.Factories;
-    using System.Collections.Generic;
+    using SeleniumTests.Models;
+    using SeleniumTests.Pages;
 
     [TestFixture]
     public class DemoQA_Registration
@@ -37,24 +37,22 @@
 
         [Test]
         public void Confirm_NameOfTitleOf_SearchedPage()
-        {            
-            _driver.Url = "http://demoqa.com";
+        {
             _regPage.GoToUrl();
 
-            _driver.Title.Should().Be("Registration | Demoqa"); 
+            _driver.Title.Should().Be("ToolsQA");
         }
 
         [Test]
         public void Confirm_NameOfHeaderOf_SearchedPage()
         {
-            _driver.Url = "http://demoqa.com";           
-
             _regPage.GoToUrl();
 
             _regPage.HeaderMessage.Displayed.Should().BeTrue();
-            _regPage.HeaderMessage.Text.Should().Be("Registration");
+            _regPage.HeaderMessage.Text.Should().Be("Register to Book Store");
         }
 
+        //StringAssert.IsMatch("Selenium with C# Tutorial", _regPage.HeaderMessage.Text);
         [Test]
         [TestCase("Philip", "")]
         [TestCase("", "")]
@@ -116,7 +114,7 @@
             _user.Email = email;
 
             _regPage.FillRegistrationForm(_user);
-            
+
             _regPage.EmailErrorMessage.Displayed.Should().BeTrue();
             _regPage.EmailErrorMessage.Text.Should().Be("* Invalid email address");
         }

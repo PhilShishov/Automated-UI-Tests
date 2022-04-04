@@ -1,12 +1,14 @@
 ﻿
 namespace SeleniumTests
 {
-    using NUnit.Framework;
-    using OpenQA.Selenium;
-    using OpenQA.Selenium.Chrome;
-    using System;
     using System.IO;
     using System.Reflection;
+    using System.Threading;
+
+    using NUnit.Framework;
+
+    using OpenQA.Selenium;
+    using OpenQA.Selenium.Chrome;
 
     [TestFixture]
     public class GoogleSearch
@@ -16,9 +18,10 @@ namespace SeleniumTests
         [SetUp]
         public void SetUp()
         {
-            _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));            
+            _driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location));
             _driver.Manage().Window.Maximize();
-            _driver.Url = "http://google.com";
+            ClearBrowserCache();
+            _driver.Url = "http://duckduckgo.com";
         }
 
         [TearDown]
@@ -26,16 +29,23 @@ namespace SeleniumTests
         {
             _driver.Quit();
         }
+
         [Test]
         public void Confirm_NameOfTitleOf_SearchedItem()
-        {           
-            IWebElement search = _driver.FindElement(By.Id("lst-ib"));
-            search.SendKeys("Selenium");
+        {
+            IWebElement search = _driver.FindElement(By.Name("q"));
+            search.SendKeys("Selenium C#");
             search.SendKeys(Keys.Enter);
 
-            _driver.FindElement(By.XPath("//*[@id=\"rso\"]/div[1]/div/div/div/div/h3/a")).Click();            
+            _driver.FindElement(By.XPath("//*[@id=\"r1-0\"]/div/h2")).Click();
 
-            StringAssert.IsMatch("Selenium - Web Browser Automation", _driver.Title);            
+            StringAssert.IsMatch("Selenium with C# Tutorial", _driver.Title);
+        }
+
+        private void ClearBrowserCache()
+        {
+            _driver.Manage().Cookies.DeleteAllCookies(); //delete all cookies
+            Thread.Sleep(3000); //wait 3 seconds to clear cookies.
         }
     }
 }

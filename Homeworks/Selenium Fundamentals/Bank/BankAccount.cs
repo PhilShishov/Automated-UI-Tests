@@ -2,9 +2,10 @@
 namespace Bank
 {
     using System;
+
     public class BankAccount
     {
-        decimal amount;
+        private decimal amount;
 
         public BankAccount(decimal initAmount)
         {
