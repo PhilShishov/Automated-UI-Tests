@@ -1,9 +1,10 @@
 ﻿namespace SeleniumTests.Pages
 {
+    using System;
+
     using OpenQA.Selenium;
     using OpenQA.Selenium.Interactions;
     using OpenQA.Selenium.Support.UI;
-    using System;
 
     public abstract class BasePage
     {
@@ -14,7 +15,7 @@
 
         public IWebDriver Driver { get; private set; }
 
-        public WebDriverWait Wait => new WebDriverWait(this.Driver, TimeSpan.FromSeconds(5));        
+        public WebDriverWait Wait => new WebDriverWait(this.Driver, TimeSpan.FromSeconds(5));
 
         public void NavigateTo(string url)
         {

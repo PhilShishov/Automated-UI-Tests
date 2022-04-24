@@ -3,7 +3,6 @@ namespace SeleniumTests.Pages.DraggablePage
 {
     using OpenQA.Selenium;
     using OpenQA.Selenium.Interactions;
-    using System;
 
     public partial class DraggablePage : BasePage
     {

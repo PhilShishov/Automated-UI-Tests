@@ -1,16 +1,16 @@
 ﻿namespace SeleniumTests
 {
+    using System.IO;
+    using System.Reflection;
+
     using NUnit.Framework;
+    using NUnit.Framework.Interfaces;
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
     using FluentAssertions;
-    using System.IO;
-    using System.Reflection;
-    using System.Threading;
     using SeleniumTests.Pages.ResizablePage;
     using SeleniumTests.Pages.SelectablePage;
     using SeleniumTests.Pages.SortablePage;
-    using NUnit.Framework.Interfaces;
 
     [TestFixture]
     public class DemoQATestsSecondSuite
@@ -46,8 +46,8 @@
             {
                 var screenshot = ((ITakesScreenshot)_driver).GetScreenshot();
                 screenshot.SaveAsFile(@"..\..\..\Pages\Screenshots\" + TestContext.CurrentContext.Test.Name + ".png", ScreenshotImageFormat.Png);
-            }            
-        }     
+            }
+        }
 
         /*************************************************************************************************
         *
@@ -98,7 +98,7 @@
 
         [Test]
         public void SelectableDefault_ObjectWhenSelected_ShouldContain()
-        {            
+        {
             _selectPage.NavigateTo("http://demoqa.com/selectable/");
             var selectObject = _selectPage.SelectableObjectFourth;
 

@@ -1,8 +1,9 @@
 ﻿namespace SeleniumTests.Pages.SortablePage
 {
-    using OpenQA.Selenium;
     using System.Collections.Generic;
     using System.Linq;
+
+    using OpenQA.Selenium;
 
     public partial class SortablePage
     {
@@ -28,7 +29,7 @@
         //Sortable Objects Connect Lists
 
         public List<IWebElement> SortableListOne => Wait.Until(d => d.FindElements(By.XPath("//ul[@id='sortable1']/li")).ToList());
-        
+
         public IWebElement SortableListOneFirst => Wait.Until(d => d.FindElement(By.XPath(@"//*[@id=""sortable1""]/li[1]")));
 
         public IWebElement SortableListOneSecond => Wait.Until(d => d.FindElement(By.XPath(@"//*[@id=""sortable1""]/li[2]")));
