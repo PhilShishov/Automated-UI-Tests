@@ -8,5 +8,7 @@
 1. <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Homeworks/Selenium%20Fundamentals" >Selenium Fundamentals</a> 
 2. <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Homeworks/Selenium%20Advanced" > Selenium Advanced</a> 
 
+<a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Homeworks/CreditCards" > Credit Cards</a> 
+
 ## Exams
 - <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Automated%20Unit%20Tests" >Automated Unit Tests</a> 
