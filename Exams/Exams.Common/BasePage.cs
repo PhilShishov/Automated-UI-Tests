@@ -1,4 +1,4 @@
-﻿namespace Exam_AutomateThePlanet.Pages
+﻿namespace Exams.Common
 {
     using System;
     using System.Threading;
