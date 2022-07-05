@@ -11,4 +11,7 @@
 <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Homeworks/CreditCards" > Credit Cards</a> 
 
 ## Exams
-- <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Automated%20Unit%20Tests" >Automated Unit Tests</a> 
+- <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Exams/AutomateThePlanet" >Automate The Planet</a> 
+- <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Exams/Flagpedia" >Flagpedia</a> 
+- <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Exams/IpRanges" >Ip Ranges</a> 
+- <a href="https://github.com/PhilShishov/Automated-UI-Tests/tree/master/Exams/NetCore" >Net Core</a> 
