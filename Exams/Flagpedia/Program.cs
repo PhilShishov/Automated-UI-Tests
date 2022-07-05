@@ -1,18 +1,18 @@
-﻿namespace Exam_Flagpedia
+﻿namespace Flagpedia
 {
     using System.IO;
     using System.Reflection;
+    using System.Threading;
 
     using NUnit.Framework;
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
 
-    using Exam_Flagpedia.Pages.IndexPage;
-    using Exam_Flagpedia.Pages.CountryPage;
-    using System.Threading;
+    using Flagpedia.Pages.IndexPage;
+    using Flagpedia.Pages.CountryPage;
 
     [TestFixture]
-    public class Flagpedia
+    public class Program
     {
         private IWebDriver _driver;
 

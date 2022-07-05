@@ -1,6 +1,6 @@
 ﻿namespace Exam_NetCore.Pages
 {
-    using Exam_AutomateThePlanet.Pages;
+    using Exams.Common;
 
     using OpenQA.Selenium;
 

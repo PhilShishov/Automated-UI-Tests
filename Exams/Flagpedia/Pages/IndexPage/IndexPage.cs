@@ -1,21 +1,22 @@
-﻿namespace Exam_IpRanges.Pages
+﻿namespace Flagpedia.Pages.IndexPage
 {
     using System.Collections.Generic;
 
-    using Exam_AutomateThePlanet.Pages;
+    using Exams.Common;
 
     using OpenQA.Selenium;
 
-    public partial class IpHomePage : BasePage
+
+    public partial class IndexPage : BasePage
     {
-        public IpHomePage(IWebDriver driver) : base(driver)
+        public IndexPage(IWebDriver driver) : base(driver)
         {
         }
 
         public List<string> GetNames()
         {
             var list = new List<string>();
-            foreach (var element in Names)
+            foreach (var element in CountryNames)
             {
                 list.Add(element.Text);
             }

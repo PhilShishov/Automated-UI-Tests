@@ -1,5 +1,7 @@
-﻿namespace Exam_AutomateThePlanet.Pages
+﻿namespace AutomateThePlanet.Pages
 {
+    using Exams.Common;
+
     using OpenQA.Selenium;
 
     using System.Threading;

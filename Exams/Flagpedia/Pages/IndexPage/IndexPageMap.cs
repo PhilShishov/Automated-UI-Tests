@@ -1,4 +1,4 @@
-﻿namespace Exam_Flagpedia.Pages.IndexPage
+﻿namespace Flagpedia.Pages.IndexPage
 {
     using System.Linq;
     using System.Collections.Generic;

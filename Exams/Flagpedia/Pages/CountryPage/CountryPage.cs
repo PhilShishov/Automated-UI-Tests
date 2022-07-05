@@ -1,6 +1,6 @@
-﻿namespace Exam_Flagpedia.Pages.CountryPage
+﻿namespace Flagpedia.Pages.CountryPage
 {
-    using Exam_AutomateThePlanet.Pages;
+    using Exams.Common;
 
     using OpenQA.Selenium;
 

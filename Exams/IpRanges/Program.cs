@@ -11,7 +11,7 @@
     using Exam_IpRanges.Pages;
 
     [TestFixture]
-    public class IpRanges
+    public class Program
     {
         private IWebDriver _driver;
 

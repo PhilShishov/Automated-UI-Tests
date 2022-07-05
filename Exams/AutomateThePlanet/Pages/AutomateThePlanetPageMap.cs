@@ -1,4 +1,4 @@
-﻿namespace Exam_AutomateThePlanet.Pages
+﻿namespace AutomateThePlanet.Pages
 {
     using System.Linq;
     using System.Collections.Generic;

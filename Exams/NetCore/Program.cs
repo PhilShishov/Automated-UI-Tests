@@ -12,7 +12,7 @@
     using Exam_NetCore.Pages;
 
     [TestFixture]
-    public class NetCore
+    public class Program
     {
         private IWebDriver _driver;
         private NetCorePage _netCorePage;

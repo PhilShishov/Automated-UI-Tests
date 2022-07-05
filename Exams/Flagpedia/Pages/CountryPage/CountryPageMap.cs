@@ -1,4 +1,4 @@
-﻿namespace Exam_Flagpedia.Pages.CountryPage
+﻿namespace Flagpedia.Pages.CountryPage
 {
     using System.Linq;
 

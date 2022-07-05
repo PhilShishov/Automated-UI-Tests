@@ -1,4 +1,4 @@
-﻿namespace Exam_AutomateThePlanet
+﻿namespace AutomateThePlanet
 {
     using System.IO;
     using System.Reflection;
@@ -10,10 +10,10 @@
     using OpenQA.Selenium;
     using OpenQA.Selenium.Chrome;
 
-    using Exam_AutomateThePlanet.Pages;
+    using AutomateThePlanet.Pages;
 
     [TestFixture]
-    public class AutomateThePlanet
+    public class Program
     {
         private IWebDriver _driver;
         private AutomateThePlanetPage _autoPage;
